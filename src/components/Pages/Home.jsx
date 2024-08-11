@@ -111,7 +111,7 @@ const Home = () => {
 
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 p-4 sm:py-8 sm:px-14'>
           <div className='duration-300 flex rounded-md bg-mainalt-black hover:bg-mainhv-black cursor-default p-3 items-center'>
-            <img className='w-6 h-6' src="/javascript.svg" alt="javascript" />
+            <img className='w-6 h-6' src="/ilistrator.png" alt="ilistrator" />
             <span className='font-semibold ml-4'>Ilıstrator</span>
           </div>
 
