@@ -43,16 +43,12 @@ const Home = () => {
       <Navbar />
       <div className='flex justify-center py-48 text-center'>
         <div>
-          <h1 className='font-bold text-4xl sm:text-6xl'>Merhaba Ben <span className='text-sky-500 underline'>Lourity</span></h1>
-          <p className='text-gray-400 text-lg sm:text-xl mt-2 p-1'>Full-Stack geliştiriciyim. Sakarya da yaşıyorum.<br />16 yaşındayım.</p>
+          <h1 className='font-bold text-4xl sm:text-6xl'>Merhaba Ben <span className='text-sky-500 underline'>Burak</span></h1>
+          <p className='text-gray-400 text-lg sm:text-xl mt-2 p-1'>Grafik tasarım öğrencisiyim. İzmir de yaşıyorum.<br />17 yaşındayım./> 2 Yıldır grafik tasarım ile ilgileniyorum.</p>
         </div>
       </div>
 
-      <div>
-        <div className='py-4 px-10'>
-          <h2 className='font-semibold text-3xl text-gray-300'><i className="bi bi-github text-2xl mr-2"></i> Github'daki projelerim</h2>
-          <p className='text-gray-400 text-lg'>Github'daki açık kaynaklı projelerim</p>
-        </div>
+
 
         <div className='gap-4 p-4 sm:py-8 sm:px-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-4'>
           {repositories.length > 0 ? (
@@ -110,63 +106,23 @@ const Home = () => {
 
       <div>
         <div className='py-4 px-10'>
-          <h2 className='font-semibold text-3xl text-gray-300'><i className="bi bi-award text-2xl mr-2"></i> Kullandığım dil ve teknolojiler</h2>
+          <h2 className='font-semibold text-3xl text-gray-300'><i className="bi bi-award text-2xl mr-2"></i> Kullandığım programlar</h2>
         </div>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 p-4 sm:py-8 sm:px-14'>
           <div className='duration-300 flex rounded-md bg-mainalt-black hover:bg-mainhv-black cursor-default p-3 items-center'>
             <img className='w-6 h-6' src="/javascript.svg" alt="javascript" />
-            <span className='font-semibold ml-4'>Javascript</span>
+            <span className='font-semibold ml-4'>Ilıstrator</span>
           </div>
 
           <div className='duration-300 flex rounded-md bg-mainalt-black hover:bg-mainhv-black cursor-default p-3 items-center'>
             <img className='w-7 h-7' src="/html.svg" alt="html" />
-            <span className='font-semibold ml-4'>HTML</span>
+            <span className='font-semibold ml-4'>Photoshop</span>
           </div>
 
           <div className='duration-300 flex rounded-md bg-mainalt-black hover:bg-mainhv-black cursor-default p-3 items-center'>
             <img className='w-7 h-7' src="/css.svg" alt="css" />
-            <span className='font-semibold ml-4'>CSS</span>
-          </div>
-
-          <div className='duration-300 flex rounded-md bg-mainalt-black hover:bg-mainhv-black cursor-default p-3 items-center'>
-            <img className='w-7 h-7' src="/tailwindcss.svg" alt="tailwindcss" />
-            <span className='font-semibold ml-4'>Tailwindcss</span>
-          </div>
-
-          <div className='duration-300 flex rounded-md bg-mainalt-black hover:bg-mainhv-black cursor-default p-3 items-center'>
-            <img className='w-6 h-6' src="/bootstrap.svg" alt="bootstrap" />
-            <span className='font-semibold ml-4'>Bootstrap</span>
-          </div>
-
-          <div className='duration-300 flex rounded-md bg-mainalt-black hover:bg-mainhv-black cursor-default p-3 items-center'>
-            <img className='w-6 h-6' src="/nodejs.svg" alt="nodejs" />
-            <span className='font-semibold ml-4'>Node JS</span>
-          </div>
-
-          <div className='duration-300 flex rounded-md bg-mainalt-black hover:bg-mainhv-black cursor-default p-3 items-center'>
-            <img className='w-6 h-6' src="/express.svg" alt="express" />
-            <span className='font-semibold ml-4'>Express</span>
-          </div>
-
-          <div className='duration-300 flex rounded-md bg-mainalt-black hover:bg-mainhv-black cursor-default p-3 items-center'>
-            <img className='w-6 h-6' src="/typescript.svg" alt="typescript" />
-            <span className='font-semibold ml-4'>TypeScript</span>
-          </div>
-
-          <div className='duration-300 flex rounded-md bg-mainalt-black hover:bg-mainhv-black cursor-default p-3 items-center'>
-            <img className='w-6 h-6' src="/mongo.svg" alt="mongo" />
-            <span className='font-semibold ml-4'>MongoDB</span>
-          </div>
-
-          <div className='duration-300 flex rounded-md bg-mainalt-black hover:bg-mainhv-black cursor-default p-3 items-center'>
-            <img className='w-8 h-8' src="/react.svg" alt="react" />
-            <span className='font-semibold ml-4'>React</span>
-          </div>
-
-          <div className='duration-300 flex rounded-md bg-mainalt-black hover:bg-mainhv-black cursor-default p-3 items-center'>
-            <img className='w-8 h-8' src="/vite.svg" alt="vite" />
-            <span className='font-semibold ml-4'>Vite</span>
+            <span className='font-semibold ml-4'>After Efects</span>
           </div>
         </div>
 
